@@ -1,0 +1,66 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: gold;
+}
+
+nav>a{
+    padding: 10px 20px;
+}
+
+.hero{
+    background-image: url('https://images.mentalfloss.com/sites/default/files/styles/mf_image_16x9/public/istock-498886489.jpg?itok=M1UKY665&resize=1100x1100');
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+}
+
+.section2{
+    display: flex;
+}
+
+.third{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.third>img{
+    width: 60%;
+}
+
+.section3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+}
+
+.box{
+    margin: 10px;
+    width: 200px;
+    height:200px;
+    border: 1px solid darkgoldenrod;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.foot{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
