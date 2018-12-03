@@ -1,0 +1,14 @@
+{
+  "name": "express-store",
+  "version": "1.0.0",
+  "description": "stuff to buy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jackie Casper",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
